@@ -1,0 +1,38 @@
+// Main button
+.button-order {
+  padding: 16px 32px;
+  background: var(--Color-brand-light);
+  border: 2px solid var(--Color-brand-light);
+  border-radius: 8px;
+
+  color: var(--Color-primaty-light);
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    color: var(--Color-brand-light);
+  }
+}
+
+/* Carousel button (back & forward) */
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--Color-primary-dark);
+  fill: var(--Color-primary-dark);
+  cursor: pointer;
+
+  &.next {
+    transform: rotate(180deg);
+  }
+  &:hover {
+    background-color: var(--Color-primary-dark);
+    fill: var(--Color-primaty-light);
+  }
+}

@@ -1,0 +1,10 @@
+.nav-links {
+  color: var(--Color-primaty-light);
+  text-decoration: none;
+  transition: color;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0, 0.83, 0.88, -0.17);
+}
+.nav-links:hover {
+  color: var(--Color-brand-light);
+}

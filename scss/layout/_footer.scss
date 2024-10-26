@@ -1,0 +1,73 @@
+.footer {
+  position: relative;
+  padding: 32px 0;
+  background-image: url("../images/footer-background.png");
+  background-color: var(--Color-primary-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer::before,
+.footer::after {
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  content: "";
+}
+.footer::before {
+  background-image: url("../images/Bread1.png");
+  width: 180px;
+  height: 120px;
+}
+.footer::after {
+  background-image: url("../images/bread2.png");
+  width: 380px;
+  height: 190px;
+  right: 0;
+}
+.footer-container {
+  display: flex;
+
+  gap: 20px;
+}
+.footer-nav {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.footer-logo {
+  flex-basis: 50%;
+}
+.nav-list {
+  flex-basis: 50%;
+}
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.address-list {
+  flex-basis: 50%;
+}
+.address-link {
+  color: var(--Color-primaty-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--Color-brand-light);
+}
+.address-icon {
+  fill: var(--Color-primaty-light);
+}
+.address-icon:hover {
+  fill: var(--Color-brand-light);
+}
+.address-copyright {
+  color: #a18268;
+  font-size: 14px;
+}
+.address-info {
+  flex-basis: 50%;
+}

@@ -1,0 +1,39 @@
+// Fonts
+@import "./utils/fonts";
+/* Variables */
+@import "./utils/variables.scss";
+/* Body */
+@import "./base";
+//
+@import "./utils/utils";
+@import "./utils/texts";
+@import "./layout/section";
+/* Header */
+@import "./layout/header";
+/* hero section */
+@import "./layout/hero-section";
+/* Buttons */
+@import "./components/buttons";
+/* Links */
+@import "./components/links";
+/* Advantages section  */
+@import "./layout/advantages-section";
+/* Traditions section */
+@import "./layout/traditions-section";
+/* Chefs-section */
+@import "./layout/chef-section";
+@import "./components/chef-card";
+/* Formats section */
+@import "./layout/format-section";
+@import "./components/format-card";
+/* Join us section */
+@import "./layout/join-us-section";
+/* Footer */
+@import "./layout/footer";
+// Forms
+@import "./layout/forms";
+@import "./components/input";
+//Terms
+@import "./components/terms";
+// Modal window
+@import "./layout/modal";

@@ -1,0 +1,24 @@
+.input {
+  position: relative;
+
+  &__label {
+    display: block;
+  }
+  &__control {
+    padding: 16px 42px;
+    width: 100%;
+    border: 1px solid var(--secondary-dark);
+    border-radius: 8px;
+    background-color: transparent;
+    &:focus {
+      border: 2px solid var(--Color-brand-light);
+      outline: none;
+    }
+    &::placeholder {
+      color: var(--secondary-dark);
+    }
+    &:focus::placeholder {
+      color: var(--Color-primary-dark);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.section {
+  padding: 48px 0;
+  &__title {
+    color: var(--Color-primary-dark);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900px;
+    line-height: 1.3;
+  }
+}
