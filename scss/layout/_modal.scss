@@ -43,12 +43,16 @@
   }
   &__btn-close {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 20px;
+    right: 20px;
     background-color: transparent;
     border: none;
     padding: 0;
     fill: var(--Color-primary-dark);
+    @media screen and (min-width: $bp-tablet) {
+      top: 40px;
+      right: 40px;
+    }
   }
   &__form-field {
     margin-bottom: 32px;

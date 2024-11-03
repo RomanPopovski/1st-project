@@ -1078,7 +1078,7 @@ ul {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url("../images/Bread-mobile-menu.png");
+  background-image: url("../images/bread-mobile-menu.png");
   width: 186px;
   height: 241px;
   background-repeat: no-repeat;
@@ -1091,12 +1091,18 @@ ul {
 }
 .modal__btn-close {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 20px;
   background-color: transparent;
   border: none;
   padding: 0;
   fill: var(--Color-primary-dark);
+}
+@media screen and (min-width: 768px) {
+  .modal__btn-close {
+    top: 40px;
+    right: 40px;
+  }
 }
 .modal__form-field {
   margin-bottom: 32px;
@@ -1125,7 +1131,7 @@ ul {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url("../images/Bread-mobile-menu.png");
+  background-image: url("../images/bread-mobile-menu.png");
   width: 186px;
   height: 241px;
   background-repeat: no-repeat;
