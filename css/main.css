@@ -1019,6 +1019,8 @@ ul {
 }
 
 .form-terms {
+  position: relative;
+  z-index: 2;
   margin: 0 auto;
   font-size: 10px;
   text-align: center;
@@ -1071,6 +1073,16 @@ ul {
   background-color: var(--Color-primaty-light);
   border-radius: 32px;
   overflow-y: auto;
+}
+.modal::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("../images/Bread-mobile-menu.png");
+  width: 186px;
+  height: 241px;
+  background-repeat: no-repeat;
+  content: "";
 }
 @media screen and (min-width: 768px) {
   .modal {

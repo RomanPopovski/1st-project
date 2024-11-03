@@ -27,6 +27,17 @@
   background-color: var(--Color-primaty-light);
   border-radius: 32px;
   overflow-y: auto;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url("../images/Bread-mobile-menu.png");
+    width: 186px;
+    height: 241px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+
   @media screen and (min-width: $bp-tablet) {
     padding: 128px;
   }
