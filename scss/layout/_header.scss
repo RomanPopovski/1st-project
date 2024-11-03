@@ -3,11 +3,17 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 32px;
+  padding-top: 16px;
+  @media screen and (min-width: $bp-desktop) {
+    padding-top: 32px;
+  }
   &__container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
+    @media screen and (min-width: $bp-desktop) {
+      align-items: center;
+    }
   }
   &__nav {
     display: flex;
@@ -16,10 +22,28 @@
     gap: 40px;
   }
   &__menu {
-    display: flex;
-    align-items: center;
-    gap: 64px;
-    flex-grow: 1;
-    justify-content: center;
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+      align-items: center;
+      gap: 64px;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
+  &__button {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+  &__burger {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    fill: var(--Color-primaty-light);
+    @media screen and (min-width: $bp-desktop) {
+      display: none;
+    }
   }
 }

@@ -4,6 +4,8 @@
 @import "./utils/variables.scss";
 /* Body */
 @import "./base";
+/* Buttons */
+@import "./components/buttons";
 //
 @import "./utils/utils";
 @import "./utils/texts";
@@ -12,8 +14,6 @@
 @import "./layout/header";
 /* hero section */
 @import "./layout/hero-section";
-/* Buttons */
-@import "./components/buttons";
 /* Links */
 @import "./components/links";
 /* Advantages section  */
@@ -26,6 +26,7 @@
 /* Formats section */
 @import "./layout/format-section";
 @import "./components/format-card";
+@import "./components/pagination";
 /* Join us section */
 @import "./layout/join-us-section";
 /* Footer */
@@ -37,3 +38,4 @@
 @import "./components/terms";
 // Modal window
 @import "./layout/modal";
+@import "./layout/mobile-menu";
